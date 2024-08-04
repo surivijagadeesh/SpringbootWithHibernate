@@ -51,6 +51,5 @@ public class EmployeeController {
 	public Employee getEmployeeName(@PathVariable("firstName") String firstName) {
 		Employee employeeName = employeeService.getEmployeeName(firstName);
 		return employeeName;
-
 	}
 }
